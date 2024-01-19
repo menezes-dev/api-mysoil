@@ -1,0 +1,3 @@
+DB_USER = menezes-dev
+DB_PASSWORD = zhqwXhMrAvBPxFv6
+CONNECTION_STRING = mongodb+srv://menezes-dev:zhqwXhMrAvBPxFv6@mysoildb.t2lla1x.mongodb.net/mysoildb?retryWrites=true&w=majority
