@@ -1,14 +1,15 @@
 import { Request, Response } from "express";
-import CreateUserService from "../../services/User/createUser.service";
+import createUserService from "../../services/user/createUser.service";
+import { CreateUser, UserDocument } from "../../interfaces/user.interfaces";
 
-const CreateUserController = async (
+const createUserController = async (
   req: Request,
   res: Response
 ): Promise<Response> => {
-  const data = req.body;
-  const newUser = await CreateUserService(data);
+  const data: CreateUser = req.body;
+  const newUser: UserDocument = await createUserService(data);
 
   return res.status(201).json(newUser);
 };
 
-export default CreateUserController;
+export default createUserController;

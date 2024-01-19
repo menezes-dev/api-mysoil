@@ -1,8 +1,8 @@
 import { hash } from "bcryptjs";
-import { CreateUser } from "../../interfaces/user.interfaces";
+import { CreateUser, UserDocument } from "../../interfaces/user.interfaces";
 import UserModel from "../../models/user.model";
 
-const CreateUserService = async (data: CreateUser): Promise<any> => {
+const createUserService = async (data: CreateUser): Promise<UserDocument> => {
   data.password = await hash(data.password, 10);
 
   const newUser = await UserModel.create(data);
@@ -11,4 +11,4 @@ const CreateUserService = async (data: CreateUser): Promise<any> => {
   return userInstance;
 };
 
-export default CreateUserService;
+export default createUserService;
