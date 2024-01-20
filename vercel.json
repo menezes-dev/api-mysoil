@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "src/**/*.ts",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/.*",
+            "dest": "/src/server.ts"
+        }
+    ],
+    "env": {
+        "MONGODB_URI": "@mymongodburi",
+        "DB_USER": "@mydbuser",
+        "DB_PASSWORD": "@mydbpassword",
+        "SECRET_KEY": "@mysecretkey",
+        "EXPIRES_IN": "@myexpiresin"
+    },
+    "functions": {
+        "src/server.ts": {
+            "runtime": "node20.11",
+            "memory": 512
+        }
+    }
+}
