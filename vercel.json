@@ -24,14 +24,5 @@
             "runtime": "node20.11",
             "memory": 512
         }
-    },
-    "build": {
-        "env": {
-            "NODE_ENV": "production"
-        },
-        "scripts": {
-            "build": "npm install --legacy-peer-deps",
-            "dev": "npm run dev"
-        }
     }
 }
