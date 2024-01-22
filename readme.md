@@ -10,7 +10,7 @@ Essa API faz parte da solução do time Yapuhcakip para o Hackathon CPAmazônia 
 
 ### Ou se preferir, acessa a URL base através de seu ApiClient preferido:
 
-    https://api-mysoil.onrender.com
+     https://my-soil-api.onrender.com
 
 \*Caso você use o Insomnia com ApiClient, você pode baixar a Coleção de requisições [aqui](https://drive.google.com/file/d/1fayqkK0OjF5_tVXnP31c8NMneGeLxzhJ/view?usp=drive_link), e importar como mostra o vídeo abaixo:
 
