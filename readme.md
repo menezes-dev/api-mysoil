@@ -1,6 +1,6 @@
 # MySoil - API
 
-Essa API faz parte da solução do time Yapuhcakip para o Hackathon CPAmazônia - Desafio SERPRO. A api foi feita com Node.js + Express e seu banco de dados está hospedado no firebase.
+Essa API faz parte da solução do time Yapuhcakip para Campus Mobile. A API foi feita com TypeScript + Express e seu banco de dados está hospedado no MongoAtlas.
 
 ### Para rodar a aplicação na sua máquina local, rode o seguinte comando:
 
@@ -12,7 +12,9 @@ Essa API faz parte da solução do time Yapuhcakip para o Hackathon CPAmazônia 
 
      https://my-soil-api.onrender.com
 
-\*Caso você use o Insomnia com ApiClient, você pode baixar a Coleção de requisições [aqui](https://drive.google.com/file/d/1fayqkK0OjF5_tVXnP31c8NMneGeLxzhJ/view?usp=drive_link), e importar como mostra o vídeo abaixo:
+### Você pode baixar a Coleção de requisições [aqui](https://drive.google.com/file/d/1fayqkK0OjF5_tVXnP31c8NMneGeLxzhJ/view?usp=drive_link)
+
+\*Caso você use o Insomnia com ApiClient, aqui está um vídeo ensinando como importar a request collection:
 
 https://github.com/menezes-dev/mysoil-backend/assets/102121794/1339e7b7-57ee-4d51-b49f-dda9e73b3038
 
